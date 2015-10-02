@@ -1,0 +1,17 @@
+#
+# This options is loaded by default.
+# These options are not written into the command history.
+#
+# The line which starts from '#' is comment.
+
+# Connection URL
+--connect
+jdbc:mysql://{DATABASE_HOST}/{DATABASE_DATABASE}?useUnicode=true&characterEncoding=UTF-8
+
+# User
+--username
+{DATABASE_USER}
+
+# Pass
+--password
+{DATABASE_PASS}
